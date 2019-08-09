@@ -1,4 +1,4 @@
-FROM arm64v8/ubuntu:18.04
+FROM ubuntu:18.04
 COPY sources.list sources.list
 RUN mv /etc/apt/sources.list /etc/apt/sources.list.bak \
     && mv sources.list /etc/apt/
